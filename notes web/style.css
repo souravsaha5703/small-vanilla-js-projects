@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #eae2b7;
+}
+
+#note-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 40px;
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px #000;
+    border-radius: 15px;
+
+}
+
+form{
+    display: flex;
+    position: relative;
+}
+#input-box{
+    outline: none;
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 35px;
+    background-color: #f0ebd8;
+    border-radius: 20px;
+    border: none;
+}
+#input-box::placeholder{
+    font-size: 15px;
+    color: #000;
+}
+form button{
+    position: absolute;
+    left: 270px;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    background-color: #e76f51;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#notes{
+    width: 100%;
+    padding-block: 25px;
+    margin-top: 30px;
+    background-color: #f0ebd8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.note{
+    width: 100%;
+    padding-inline: 30px;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+h4{
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 1rem;
+}
