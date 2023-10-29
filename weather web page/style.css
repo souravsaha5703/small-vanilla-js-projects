@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 10px;
+}
+.search-section{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#searchbox{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#search{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: black;
+    cursor: pointer;
+}
+#search i{
+    color: #fff;
+    font-size: 1.5rem;
+}
+#result{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#status{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#status i{
+    color: black;
+    font-size: 6rem;
+}
+#status #temp{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.other-stats{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.humidity-section i{
+    color: black;
+    font-size: 3rem;
+}
+.humidity-section h4{
+    color: black;
+    font-size: 3rem;
+}
+.wind-section i{
+    color: black;
+    font-size: 3rem;
+}
+.wind-section h4{
+    color: black;
+    font-size: 2rem;
+}
